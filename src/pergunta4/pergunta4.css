@@ -1,0 +1,150 @@
+.borda {
+  border: 20px solid #5b7fff;
+  background-color: #fff;
+  font-size: 15pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.quadrado{
+  height: 40px; /* Altura */
+  width: 100%;
+  border-radius: 70px;
+  border-top-left-radius: 0 ;
+  border-top-right-radius: 0;
+  font-size: 20pt;
+  background-color: #5b7fff;
+  color: #fff;
+  display: flex;
+  margin: 0 auto ;
+  justify-content: center;
+}
+
+.quadrado1{
+  text-align: center; 
+  width: 670px; /* Largura do quadrado */
+  height: 69px; /* Altura do quadrado */
+  flex-direction: row;
+  border: 3px solid #5b7fff;
+  font-size: 20pt;
+  display: flex;
+  gap:15px;
+  border-radius: 12px;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.center{
+   padding: 10px;
+    text-align: center;
+    flex: 1;
+  }
+
+.LetraA{
+  color: #fff;
+  background-color: #5b7fff;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  display: flex;
+}
+
+.textoA{
+  display: flex;
+
+}
+
+.quadrado2{
+  width: 670px; /* Largura do quadrado */
+  height: 90px;
+  background-color: #dcdcdc;
+  flex-direction: row;
+  border: 3px solid #5b7fff;
+  font-size: 20pt;
+  display: flex;
+  gap:10px;
+  border-radius: 12px;
+  align-items: center;
+  margin-bottom: 7px;
+ 
+}
+
+
+.LetraB{
+  color:#fff;
+  background-color: #5b7fff;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  display: flex;
+}
+
+.textoB{
+  display: flex;
+  color: black;
+
+}
+
+
+.quadrado3{
+  width: 670px; /* Largura do quadrado */
+  height: 60px;
+  background-color: #dcdcdc;
+  flex-direction: row;
+  border: 3px solid #5b7fff;
+  font-size: 20pt;
+  display: flex;
+  gap:10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.LetraC{
+  color: #fff;
+  background-color: #5b7fff;
+  width: 13%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  display: flex;
+
+}
+
+.TextoC{
+  display: flex;
+}
+
+
+
+.alternativa{
+  gap: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+
+
+.evolucao{
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}

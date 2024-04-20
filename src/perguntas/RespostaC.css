@@ -1,0 +1,157 @@
+.borda {
+  border: 20px solid #5b7fff;
+  background-color: #fff; 
+  font-size: 15pt;
+  height: 95vh;
+  color: #fff;
+}
+
+.coloracao{
+  color: #4FDD5D;
+  font-size: 20pt;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.quadrado{
+  height: 50px; /* Altura */
+  text-align: center; 
+  padding: 20px;
+  border-radius: 50px;
+  border-top-left-radius: 0 ;
+  border-top-right-radius: 0;
+  font-size: 20pt;
+  background-color: #5b7fff;
+  color: #fff;
+}
+
+.quadrado1{
+  text-align: center; 
+  width: 670px; /* Largura do quadrado */
+  height: 69px; /* Altura do quadrado */
+  background-color: #dcdcdc;
+  flex-direction: row;
+  border: 3px solid #c0c0c0;
+  font-size: 20pt;
+  display: flex;
+  gap:15px;
+  border-radius: 12px;
+  align-items: center;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+
+.LetraA{
+  color: #fff;
+  background-color: #5b7fff;
+  background-color: #c0c0c0;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  display: flex;
+}
+
+.textoA{
+  display: flex;
+
+}
+
+.quadrado2{
+  width: 670px; /* Largura do quadrado */
+  height: 90px;
+  background-color: #5b7fff;
+  flex-direction: row;
+  border: 3px solid #4FDD5D;
+  font-size: 20pt;
+  display: flex;
+  gap:10px;
+  border-radius: 12px;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+
+.LetraB{
+  color: #fff;
+  background-color: #4FDD5D;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  display: flex;
+}
+
+.textoB{
+  display: flex;
+
+}
+
+
+.quadrado3{
+  width: 670px; /* Largura do quadrado */
+  height: 60px;
+  background-color: #dcdcdc;
+  flex-direction: row;
+  border: 3px solid #c0c0c0;
+  font-size: 20pt;
+  display: flex;
+  gap:10px;
+  border-radius: 10px;
+  align-items: center;
+  color: #000000;
+}
+
+.LetraC{
+  color: #fff;
+  background-color: #c0c0c0;
+  width: 13%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  display: flex;
+
+}
+
+.TextoC{
+  display: flex;
+}
+
+
+
+.alternativa{
+  gap: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.BotoesBaixo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: -25px;
+}
+
+.evolucao{
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
