@@ -3,6 +3,7 @@ import "./styles.css";
 import Telas from "../../telas/pergunta1";
 import relogio from "../../assets/img/relogio1.png";
 import img1 from "../../assets/img/heranca.png";
+import QuizOptionButton from "../buttons/QuizOptionButton";
 type Resposta = "A" | "B" | "C";
 
 type Props = {
@@ -59,7 +60,7 @@ function Pergunta({
       {
         !respostaSelecionada ? (
           <div className="imgCentro">
-            <img src={imgSource} alt="" height="259" width="419" />
+            <img src={imgSource} alt="" height={259} width={419} />
           </div>
         ) : resposta ? (
           <div>
@@ -80,73 +81,29 @@ function Pergunta({
         <p className="temporizador">{tempoRestante}</p>
         <img src={relogio} alt="" width="135" height="179" />
       </div>
-      <div className="alternativa">
-        <button
-          disabled={respostaSelecionada ? true : false}
-          className="quadrado1"
+
+      {/* Criei um novo componente chamado QuizOptionButton, que é botão das alternativas*/}
+      <div className="alternativas">
+        <QuizOptionButton
+          labelIcon="A"
+          text={letraA}
           onClick={() => selecionarResposta("A")}
-        >
-          <div
-            className={
-              respostaSelecionada
-                ? respostaSelecionada === "A"
-                  ? "opcao"
-                  : "buttonDisable"
-                : "opcao"
-            }
-          >
-            <h1>A</h1>
-          </div>
-          <div className="textoOpcao">
-            <p>{letraA}</p>
-          </div>
-        </button>
-      </div>
+          isDisable={respostaSelecionada ? "A" !== gabarito : false}
+        />
 
-      <div className="alternativa">
-        <button
-          disabled={respostaSelecionada ? true : false}
-          className="quadrado1"
+        <QuizOptionButton
+          labelIcon="B"
+          text={letraB}
           onClick={() => selecionarResposta("B")}
-        >
-          <div
-            className={
-              respostaSelecionada
-                ? respostaSelecionada === "B"
-                  ? "opcao"
-                  : "buttonDisable"
-                : "opcao"
-            }
-          >
-            <h1>B</h1>
-          </div>
-          <div className="textoOpcao">
-            <p>{letraB}</p>
-          </div>{" "}
-        </button>
-      </div>
+          isDisable={respostaSelecionada ? "B" !== gabarito : false}
+        />
 
-      <div className="alternativa">
-        <button
-          disabled={respostaSelecionada ? true : false}
-          className="quadrado1"
+        <QuizOptionButton
+          labelIcon="C"
+          text={letraC}
           onClick={() => selecionarResposta("C")}
-        >
-          <div
-            className={
-              respostaSelecionada
-                ? respostaSelecionada === "C"
-                  ? "opcao"
-                  : "buttonDisable"
-                : "opcao"
-            }
-          >
-            <h1>C</h1>
-          </div>
-          <div className="textoOpcao">
-            <p>{letraC}</p>
-          </div>
-        </button>
+          isDisable={respostaSelecionada ? "C" !== gabarito : false}
+        />
       </div>
 
       {respostaSelecionada && (

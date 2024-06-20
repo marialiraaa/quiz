@@ -126,7 +126,7 @@
   max-width: 670px; 
 } 
 
-.buttonDisable{ /*Cor do quadrado que fica embaixo das alternativas (A,B,C)*/
+/* .buttonDisable{ /*Cor do quadrado que fica embaixo das alternativas (A,B,C)
   color: #000;
   background-color: #d9d9d9;
   width: 20%;
@@ -138,7 +138,8 @@
   border-bottom-right-radius: 20px;
   border-top-right-radius: 10px;
   display: flex;
-}
+} 
+*/
 
 .retornar{
   display: flex;
@@ -156,5 +157,10 @@
   margin-top: 20px;
 }
 
+.alternativas > * {
+  margin-bottom: 30px;
+}
 
-
+.alternativas > *:last-child {
+  margin-bottom: 0;
+}

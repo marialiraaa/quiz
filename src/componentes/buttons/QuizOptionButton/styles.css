@@ -1,0 +1,80 @@
+.buttonContainer{
+  display: flex;
+  max-width: 670px;
+  background-color: #F7F7F7;
+  border-radius: 20px;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 6px solid #5b7fff;
+
+
+  &:hover {
+    background-color: #9747FF;
+    color: #fff;
+  }
+}
+
+.iconContainer {
+  background-color: #5b7fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  font-weight: bold;
+  font-size: 60px;
+  padding: 20px 20px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.iconContainerDisable {
+  background-color: #f00;
+}
+
+.textContainer {
+  font-size: 24px;
+  align-self: center;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 10px 10px 10px 15px;
+
+}
+
+/* .buttonDisable{
+  color: #000;
+  background-color: #d9d9d9;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  display: flex;
+} */
+
+.buttonContainerDisable {
+  color: #333;
+  background-color: #d9d9d9;
+  cursor: not-allowed;
+  border-color: #f00; 
+
+  &:hover {
+  background-color: #d9d9d9;
+   color: #333;
+  }
+}
+
+
+
+
+
+
+
+
