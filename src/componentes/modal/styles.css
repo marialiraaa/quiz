@@ -1,0 +1,78 @@
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.left{
+  flex: 1;
+}
+
+.center{
+
+    display: flex;
+    align-items: center;
+  
+}
+
+.right{
+  text-align: center;
+  flex: 1;
+  
+}
+
+.quadrado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+  height: 300px;
+  border-radius: 20px;
+  font-size: 20pt;
+  text-align: justify;
+  flex-direction: column;
+  margin-top: 200px; 
+}
+
+.ordenado{
+  text-align: center;
+}
+
+
+
+.fechar {
+  display: inline-block; /* Faz com que os botões fiquem lado a lado */
+  width: 100px; /* Largura dos botões */
+  height: 100px; /* Altura dos botões */
+  margin-right: 10px; /* Espaçamento entre os botões */
+  background-color: red; /* Cor de fundo para o botão 'Fechar' */
+  border: none; /* Remove a borda */
+  border-radius: 10px; /* Bordas arredondadas */
+  color: white; /* Cor do texto */
+  font-size: 16px; /* Tamanho do texto */
+}
+
+.avancar {
+  display: inline-block; /* Faz com que os botões fiquem lado a lado */
+  width: 100px; /* Largura dos botões */
+  height: 100px; /* Altura dos botões */
+  background-color: lime; /* Cor de fundo para o botão 'Avançar' */
+  border: none; /* Remove a borda */
+  border-radius: 10px; /* Bordas arredondadas */
+  color: white; /* Cor do texto */
+  font-size: 16px; /* Tamanho do texto */
+}
+
+.Ícone {
+  color: blue;
+}
+
+.TextOrdenado{
+  text-align: center;
+}
