@@ -1,5 +1,5 @@
 import pergunta115 from "./componentes/Pergunta/Index";
-import Teste from "./telas/teste";
+import Teste from "./componentes/Pergunta/Index";
 function App() {
   return (
     <div>

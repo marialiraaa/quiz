@@ -21,7 +21,7 @@
 
 .circuloPontuacao{
   position: fixed;
-  top: 70px; /* deixa mais alto/baixo*/
+  top: 100px; /* deixa mais alto/baixo*/
   right: 50px; 
   width: 90px; /* Largura do circulo */
   height: 90px; /* Altura do circulo */
@@ -46,9 +46,9 @@
 }
 
 .quadrado {/*nesse quadrado fica localizado a pergunta*/
-  height: 40px;
+  height: 70px;
   width: 100%;
-  border-radius: 70px;
+  border-radius: 50px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   font-size: 20pt;
@@ -57,6 +57,7 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  align-items: center;
 }
 
 .quadrado1 { /*quadrado cinza que vai as alternativas*/ 
@@ -100,18 +101,23 @@
 }
 
 .respostaC{
-  text-align: left ;
-  right: 100%; 
   color: #0f0;
+  align-self: flex-start;
 
 }
 
 .respostaE{
   text-align: left;
   color: #F00;
-
+  align-self: flex-start;
 }
 
+.TextoDaResposta{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
 
 .alternativa { 
   /*gap: 30px; /* Adicionei "px" para especificar a unidade de medida */
@@ -149,7 +155,7 @@
   margin-top: 20px;
 }
 
-.avançar{
+.Botões{
   display: flex;
   align-items: center;
   gap: 10px;
@@ -164,3 +170,5 @@
 .alternativas > *:last-child {
   margin-bottom: 0;
 }
+
+
