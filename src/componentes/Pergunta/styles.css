@@ -147,20 +147,22 @@
 } 
 */
 
-.retornar{
+.retornar {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 50px;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 50px; /* <-- aumente aqui o valor conforme necessário */
 }
 
 .Botões{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 50px;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .alternativas > * {

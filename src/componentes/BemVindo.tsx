@@ -1,7 +1,6 @@
 import "./BemVindo.css";
 import LogoQuiz from "../assets/img/logo.png";
 import Som from "../assets/img/som.png";
-import { Link } from "react-router-dom";
 
 const bem_vindo = () => {
   return (
@@ -21,10 +20,10 @@ const bem_vindo = () => {
           </div>
         </div>
       </div>
-
+      */
       <div className="quadrado">
         <p>
-          Bem-vindo(a) ao <b>Quiz de legado.</b>
+          Bem-vindo(a) ao <b>Legacy Quiz.</b>
         </p>
         <p className="ordenado">
           Você sabia que nossos dados digitais continuam a existir além da sua
@@ -41,15 +40,17 @@ const bem_vindo = () => {
           {" "}
           Lembre-se, este quiz tem como objetivo destacar a importância dos
           dados digitais após a morte e promover uma reflexão sobre o legado que
-          deixamos para trás. <p>Boa sorte!</p>{" "}
+          deixamos para trás.
+        </p>
+        <p className="ordenado">
+          {" "}
+          Responda e descubra seu nível de conhecimento: de iniciante a mestre
+          dos dados!. <p>Boa sorte!</p>{" "}
         </p>
       </div>
-
       <div className="BotoesBaixo">
         <button className="Btntamanho">Tutorial</button>
-        <Link to="/registro">
-          <button className="Btntamanho">Avançar</button>
-        </Link>
+        <button className="Btntamanho">Avançar</button>
       </div>
     </>
   );

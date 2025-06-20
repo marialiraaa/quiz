@@ -1,7 +1,7 @@
 import "./styles.css";
 
 type Props = {
-  labelIcon: string;
+  labelIcon: "A" | "B" | "C";
   text: string;
   onClick(): void;
   isDisable: boolean;

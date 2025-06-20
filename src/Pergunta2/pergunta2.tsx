@@ -1,8 +1,6 @@
 import "./pergunta2.css";
 import React, { useState } from "react";
 import p2 from "../assets/img/heranca.png";
-import RespostaC from "../perguntas/RespostaC"; // novo
-import respostaE from "../perguntas/respostaE"; // novo
 
 type Resposta = "A" | "B" | "C"; // Definindo o tipo Resposta como "A", "B" ou "C"
 

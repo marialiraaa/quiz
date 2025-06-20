@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./styles.css";
 import relogio from "../../assets/img/relogio1.png";
 import img1 from "../../assets/img/heranca.png";
-import img2 from "../../assets/img/img1.png";
+//import img2 from "../../assets/img/";
 import img3 from "../../assets/img/heranca.png";
 import img4 from "../../assets/img/heranca.png";
 import img5 from "../../assets/img/heranca.png";
@@ -38,7 +38,7 @@ const perguntas: PerguntaType[] = [
     letraC:
       "Documento legal que especifica a transferência de ativos digitais.",
     gabarito: "B",
-    imgSource: img2,
+    imgSource: ".",
   },
   {
     pergunta: "2. O que significa o termo ''Herança Digital''?",
@@ -354,6 +354,7 @@ const Pergunta = () => {
 
       {respostaSelecionada && (
         <div className="Botões">
+          <button className="Voltar">Retornar</button>
           <button onClick={irParaProximaPergunta}>Próximo</button>
         </div>
       )}
