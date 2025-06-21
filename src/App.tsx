@@ -1,4 +1,4 @@
-import Inicio from "./componentes/Pergunta/Index";
+import Inicio from "./componentes/BemVindo";
 function App() {
   return (
     <div>

@@ -38,8 +38,43 @@
     flex-direction: column;
   }
 
+  .Logo {
+  display: flex;
+  padding: 20px;
+  margin: 0px auto 0px auto;
+  width: 100%;
+  justify-content: center;
+  }
+
+  .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.triangleWelcomeBox {
+  width: 20;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid #fff;
+}
+
+.welcomeBox {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0px auto 0px auto;
+  max-width: 800px;
+  width: 100%;
+  font-size: 20pt;
+  text-align: justify;
+  border-radius: 20px;
+
+}
+
   .ordenado{
     text-align: center;
+    font-weight: 100;
   }
 
 
@@ -56,12 +91,13 @@
   .BotoesBaixo{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
-    margin-top: -5px;
+    margin-top: 20px;
   }
 
   .Btntamanho{
     height: 40px;
     width: 150px;
+    box-shadow: 0px 7px 5px rgba(0, 0 ,0, .5);
   }
