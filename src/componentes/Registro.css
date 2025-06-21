@@ -3,19 +3,20 @@
 
 
 
-.quadrado{
+.quadrado {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
   background-color: #fff;
   padding: 20px;
   height: 300px;
   font-size: 20pt;
   flex-direction: column;
   width: 50%;
-  text-align: center;
 
 }
+
+
 
 .texto{
   color: #fff;

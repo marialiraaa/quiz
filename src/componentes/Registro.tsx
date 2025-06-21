@@ -1,10 +1,15 @@
 import "./Registro.css";
 import React, { useState } from "react";
-import logopreta from "../assets/img/LogoPreta.png";
-import { Link } from "react-router-dom";
+import LogoQuiz from "../assets/img/legacyQuizBlack.png";
+import { useNavigate } from "react-router-dom";
+import ArrowLeft from "../assets/img/fluent--arrow-left-12-filled.svg?react";
 
 const Registro = () => {
   const [nome, setNome] = useState<string>("");
+  const navigate = useNavigate();
+  const irParaRegistro = () => {
+    navigate("/registro");
+  };
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setNome(event.target.value);
@@ -17,11 +22,36 @@ const Registro = () => {
 
   return (
     <div className="conteudo">
-      <Link to="/">
-        <button className="Voltar">Voltar</button>
-      </Link>
-      <div className="quadrado">
-        <img src={logopreta} alt="" height="74" width="404" />
+      <div>
+        <button
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            height: 40,
+            width: 150,
+          }}
+          onClick={() => navigate("/")}
+        >
+          <ArrowLeft width={20} height={20} style={{ marginRight: 10 }} />
+          <p>Voltar</p>
+        </button>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          backgroundColor: "#fff",
+          width: 614.38,
+          height: 300,
+          alignSelf: "center",
+          padding: 20,
+          alignItems: "center",
+          borderRadius: 20,
+          paddingTop: 60,
+        }}
+      >
+        <img src={LogoQuiz} alt="" height="74" width="349" />
         <form onSubmit={handleSubmit}>
           <input
             className="input"
@@ -31,9 +61,10 @@ const Registro = () => {
             onChange={handleInputChange}
             placeholder="Digite seu nome"
           />
-          <Link to="pergunta1">
-            <button className="Jogar">Jogar</button>
-          </Link>
+
+          <button className="Jogar" onClick={() => navigate("/perguntas")}>
+            Jogar
+          </button>
         </form>
       </div>
       <div className="texto">

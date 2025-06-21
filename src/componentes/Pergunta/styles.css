@@ -174,3 +174,37 @@
 }
 
 
+.progress-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.progress-bar {
+  height: 40px;
+  background-color: #e2e4ef;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #5B7FFF;
+  transition: width 0.3s ease;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
+.progress-text {
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  font-weight: bold;
+  color: #5B7FFF;
+  font-size: 14px;
+}
+
+
+

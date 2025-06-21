@@ -2,8 +2,14 @@ import "./BemVindo.css";
 import LogoQuiz from "../assets/img/legacyQuizLogo.png";
 import Som from "../assets/img/som.png";
 import ArrowRight from "../assets/img/fluent--arrow-right-12-filled.svg?react";
+import { useNavigate } from "react-router-dom";
 
 const bem_vindo = () => {
+  const navigate = useNavigate();
+  const irParaRegistro = () => {
+    navigate("/registro");
+  };
+
   return (
     <>
       <div
@@ -58,6 +64,7 @@ const bem_vindo = () => {
             alignItems: "center",
             justifyContent: "center",
           }}
+          onClick={irParaRegistro}
         >
           <p>Avançar</p>
           <ArrowRight width={20} height={20} style={{ marginLeft: 5 }} />

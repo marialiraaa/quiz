@@ -17,6 +17,8 @@ import img13 from "../../assets/img/heranca.png";
 import img14 from "../../assets/img/heranca.png";
 import img15 from "../../assets/img/heranca.png";
 import QuizOptionButton from "../buttons/QuizOptionButton";
+import ArrowRight from "../../assets/img/fluent--arrow-right-12-filled.svg?react";
+import RetornarIcon from "../../assets/img/pepicons-pop_arrow-spin.svg?react";
 
 type Resposta = "A" | "B" | "C";
 
@@ -353,10 +355,54 @@ const Pergunta = () => {
       </div>
 
       {respostaSelecionada && (
-        <div className="Botões">
-          <button className="Voltar">Retornar</button>
-          <button onClick={irParaProximaPergunta}>Próximo</button>
-        </div>
+        <>
+          <div className="progress-container">
+            <div className="progress-bar">
+              <div
+                className="progress-fill"
+                style={{
+                  width: `${((indicePergunta + 1) / 15) * 100}%`,
+                  borderTopRightRadius:
+                    indicePergunta === 15 ? "9999px" : "0px",
+                  borderBottomRightRadius:
+                    indicePergunta === 15 ? "9999px" : "0px",
+                }}
+              ></div>
+            </div>
+            <div className="progress-text">
+              {indicePergunta + 1}/{15}
+            </div>
+          </div>
+          <div className="Botões">
+            <button
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                height: 40,
+                width: 150,
+              }}
+              onClick={irParaProximaPergunta}
+            >
+              <p>Retornar</p>
+              <RetornarIcon width={28} height={28} style={{ marginLeft: 5 }} />
+            </button>
+
+            <button
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                height: 40,
+                width: 150,
+              }}
+              onClick={irParaProximaPergunta}
+            >
+              <p>Próxima</p>
+              <ArrowRight width={28} height={28} style={{ marginLeft: 5 }} />
+            </button>
+          </div>
+        </>
       )}
     </div>
   );
