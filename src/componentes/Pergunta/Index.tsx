@@ -40,7 +40,7 @@ const perguntas: PerguntaType[] = [
     letraC:
       "Documento legal que especifica a transferência de ativos digitais.",
     gabarito: "B",
-    imgSource: ".",
+    imgSource: "../../../src/assets/img/pergunta1.png",
   },
   {
     pergunta: "2. O que significa o termo ''Herança Digital''?",
@@ -48,7 +48,7 @@ const perguntas: PerguntaType[] = [
     letraB: "Processo de criação de um legado físico.",
     letraC: "Herança de bens físicos após a morte.",
     gabarito: "A",
-    imgSource: ".",
+    imgSource: "../../../src/assets/img/pergunta2.png",
   },
   {
     pergunta: "3. O que podemos incorporar em um testamento digital?",
@@ -57,7 +57,7 @@ const perguntas: PerguntaType[] = [
       "Uma declaração legal que determina o destino dos bens digitais após o falecimento, incluindo a nomeação de guardiões para gerenciar contas em redes sociais, e a possibilidade de deixar mensagens finais compartilhadas online para amigos e familiares.",
     letraC: "Todas as opções estão corretas.",
     gabarito: "B",
-    imgSource: ".../../../src/assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta3.png",
   },
   {
     pergunta: "4. Sobre o legado digital, ele é:",
@@ -67,7 +67,7 @@ const perguntas: PerguntaType[] = [
       "Algo que deve ser deixado para os especialistas lidarem, não para o público se preocupar.",
     letraC: "Um conjunto de bens físicos",
     gabarito: "A",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta4.png",
   },
   {
     pergunta:
@@ -78,7 +78,7 @@ const perguntas: PerguntaType[] = [
       "A maioria não planeja o destino de seu legado digital, deixando os dados ativos para a família ou administradores tomarem decisões.",
     letraC: "Ambas as opções são possíveis.",
     gabarito: "C",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta5.png",
   },
   {
     pergunta:
@@ -90,7 +90,7 @@ const perguntas: PerguntaType[] = [
     letraC:
       "Todos os dados digitais foram deixados sem administração, resultando em uma preservação natural e espontânea de sua herança digital.",
     gabarito: "A",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta6.png",
   },
   {
     pergunta:
@@ -102,7 +102,7 @@ const perguntas: PerguntaType[] = [
     letraC:
       "A  família de Glória Maria decidiu deixar suas contas digitais ativas, permitindo que seus seguidores continuassem a interagir com seu legado online.",
     gabarito: "B",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta7.png",
   },
   {
     pergunta:
@@ -112,7 +112,7 @@ const perguntas: PerguntaType[] = [
     letraC:
       "Não houve ação específica em relação à sua herança musical online.",
     gabarito: "A",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta8.png",
   },
   {
     pergunta:
@@ -124,7 +124,7 @@ const perguntas: PerguntaType[] = [
     letraC:
       "O Facebook permite que os usuários escolham um contato de legado para gerenciar sua conta após a morte; e além disso, oferece a opção de transformar o perfil em um memorial digital ou há a possibilidade de exclusão do perfil após o falecimento.",
     gabarito: "C",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta9.png",
   },
   {
     pergunta:
@@ -134,7 +134,7 @@ const perguntas: PerguntaType[] = [
     letraC:
       "Não há recursos para legado digital no TikTok, sendo assim, não há nenhuma pena para o uso indevido dos vídeos.",
     gabarito: "A",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta10.png",
   },
   {
     pergunta:
@@ -143,7 +143,7 @@ const perguntas: PerguntaType[] = [
     letraB: "Recursos de privacidade.",
     letraC: "Gerenciamento de e-mails.",
     gabarito: "C",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta11.png",
   },
   {
     pergunta:
@@ -152,7 +152,7 @@ const perguntas: PerguntaType[] = [
     letraB: "Atestado de óbito.",
     letraC: "Testamentos digitais.",
     gabarito: "C",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta12.png",
   },
   {
     pergunta: "Qual lei brasileira regula a proteção de dados pessoais?",
@@ -160,7 +160,7 @@ const perguntas: PerguntaType[] = [
     letraB: "PROCON.",
     letraC: "Código Civil Brasileiro.",
     gabarito: "A",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta13.png",
   },
   {
     pergunta:
@@ -171,7 +171,7 @@ const perguntas: PerguntaType[] = [
     letraC:
       "A LGPD continua a proteger os dados pessoais de uma pessoa mesmo após sua morte, garantindo que sejam tratados de acordo com os princípios estabelecidos na lei.",
     gabarito: "C",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta14.png",
   },
   {
     pergunta:
@@ -183,7 +183,7 @@ const perguntas: PerguntaType[] = [
     letraC:
       "Os herdeiros ou representantes legais podem solicitar o acesso, correção ou exclusão dos dados póstumos, desde que sigam os procedimentos estabelecidos na lei.",
     gabarito: "C",
-    imgSource: "../assets/img/heranca.png",
+    imgSource: "../../../src/assets/img/pergunta15.png",
   },
 ];
 
