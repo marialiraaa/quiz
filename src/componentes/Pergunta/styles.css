@@ -47,7 +47,7 @@
 
 .quadrado {/*nesse quadrado fica localizado a pergunta*/
   height: 70px;
-  width: 100%;
+  width: 98%;
   border-radius: 50px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;

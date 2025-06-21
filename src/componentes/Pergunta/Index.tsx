@@ -316,9 +316,6 @@ const Pergunta = () => {
         </div>
       )}
 
-      {respostaSelecionada && (
-        <div className="circuloPontuacao">{perguntasCorretas}</div>
-      )}
       {!respostaSelecionada && (
         <div className="imgRelogio">
           <p className="temporizador">{tempoRestante}</p>
@@ -382,7 +379,11 @@ const Pergunta = () => {
                 height: 40,
                 width: 150,
               }}
-              onClick={irParaProximaPergunta}
+              onClick={() => {
+                if (indicePergunta > 0) {
+                  setIndicePergunta(indicePergunta - 1);
+                }
+              }}
             >
               <p>Retornar</p>
               <RetornarIcon width={28} height={28} style={{ marginLeft: 5 }} />
